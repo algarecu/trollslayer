@@ -48,10 +48,10 @@ VOLUME  ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql"]
 CMD ["/usr/lib/postgresql/9.3/bin/postgres", "-D", "/var/lib/postgresql/9.3/main", "-c", "config_file=/etc/postgresql/9.3/main/postgresql.conf"]
 
 # Take a snapshot
-CMD ["docker", "build", "-t", "trollslayer_postgresql", "."]
+# CMD ["docker", "build", "-t", "trollslayer_postgresql", "."]
 
 # Start the container in background
-CMD ["docker", "run", "--rm", "-P", "--name", "pg_test", "trollslayer_postgresql"]
+# CMD ["docker", "run", "--rm", "-P", "--name", "pg_test", "trollslayer_postgresql"]
 
 # Connect to docker database
-CMD ["psql", "-h", "localhost", "-p", "32768", "-d", "docker", "-U", "docker", "--password"]
+# CMD ["psql", "-h", "localhost", "-p", "32768", "-d", "docker", "-U", "docker", "--password"]
