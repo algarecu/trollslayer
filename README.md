@@ -1,4 +1,5 @@
-# Trollslayer: 
+# Trollslayer [![DOI](https://zenodo.org/badge/80379199.svg)](https://zenodo.org/badge/latestdoi/80379199)
+ 
 Copyright (C) 2015-2017
 Álvaro García Recuero, algarecu@gmail.com
 
