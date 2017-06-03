@@ -41,17 +41,20 @@ RUN echo "listen_addresses='*'" >> /etc/postgresql/9.4/main/postgresql.conf
 # Expose the PostgreSQL port
 EXPOSE 5432
 
+# Working dir
+WORKDIR /code
+
 # Add VOLUMEs to allow backup of config, logs and databases
-VOLUME  ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql"]
+VOLUME  ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql", "/code"]
 
 # Set the default command to run when starting the container
-CMD ["/usr/lib/postgresql/9.4/bin/postgres", "-D", "/var/lib/postgresql/9.4/main", "-c", "config_file=/etc/postgresql/9.4/main/postgresql.conf"]
+CMD ["/usr/lib/postgresql/9.4/bin/postgres", "-D", "/usr/local/var/postgresql@9.4", "-c", "/usr/local/var/postgresql@9.4/postgresql.conf"]
 
 # Take a snapshot
 # CMD ["docker", "build", "-t", "trollslayer_postgresql", "."]
 
 # Start the container in background
-# CMD ["docker", "run", "--rm", "-P", "--name", "pg_test", "trollslayer_postgresql"]
+# CMD ["docker", "run", "--rm", "-P", "--name", "trollslayer", "trollslayer_postgresql"]
 
 # Connect to docker database
 # CMD ["psql", "-h", "localhost", "-p", "32768", "-d", "docker", "-U", "docker", "--password"]

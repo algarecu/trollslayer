@@ -1,0 +1,8 @@
+version: '2'
+services:
+  db:
+    image: trollslayer-with-psql
+    volumes:
+      - "/usr/local/var/postgresql@9.4:/usr/local/var/postgresql@9.4"
+    ports:
+      - "32768:5432"
