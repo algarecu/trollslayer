@@ -1,5 +1,12 @@
 # Trollslayer [![DOI](https://zenodo.org/badge/80379199.svg)](https://zenodo.org/badge/latestdoi/80379199)
- 
+
+## Citation
+If you use this code and/or dataset (upcoming) please refer to the [source](https://hal.inria.fr/hal-01355951) of this work:
+
+Alvaro Garcia-Recuero, Jeff Burdges, Christian Grothoff: Privacy-Preserving Abuse Detection in Future Decentralized Online Social Networks. In the 11th ESORICS International Workshop on [Data Privacy Management](http://dpm2016.di.unimi.it/), 2016, Crete, Greece.
+
+This data was annotated by crowdsourcing workers from platform Crowdflower.
+## License
 Copyright (C) 2015-2017
 Álvaro García Recuero, algarecu@gmail.com
 
@@ -19,7 +26,6 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, see <http://www.gnu.org/licenses>.
 
 ## Requirements (pip install):
-
 * python-2.7.9
 * sqlalchemy
 * twython
