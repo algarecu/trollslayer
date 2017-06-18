@@ -41,14 +41,22 @@ along with this program; if not, see <http://www.gnu.org/licenses>.
 * cd getch-1.0
 * python setup.py install
 
-## ASCII header requires certain libraries so it prints a nice tile in the welcome screen.
+### ASCII header requires certain libraries so it prints a nice tile in the welcome screen.
 * pip install colorama
 * pip install termcolor
 * pip install git+https://github.com/pwaller/pyfiglet
 
-### TrollSlayer guidelines to mark a tweet as trolling
-#### Deny, Disrupt, Degrade, Deceive: JTRIGs use them in online HUMINT Operations.
+## Starting Trollslayer
++ $ python groundtruth_reader.py (It will display a message: "Loading tweets from db... please wait")
++ Next, you will prompted to enter your reviewer id. If you have one, great; else create it.
++ Once a tweet is loaded, read the guidelines below before giving ans answer on whether you consider it abusive or not.
 
+## Using Trollslayer
+### Interface
++ There are four options to mark a tweet, right(acceptable), left(abusive), up(undo), down(skip).
++ Skipping the tweet will flag it as 'unknown', which can be considered as neutral (neither positive nor negative, a blank vote).
+
+#### Guidelines to annotate abuse: Deny, Disrupt, Degrade, Deceive (from JTRIG HUMINT Operations)
 + Deny: encouraging self-harm to others users, promoting violence (direct or indirect), terrorism or similar activities.
 + Disrupt: distracting provocations, denial-of-service, flooding with messages, promote abuse.
 + Degrade: disclosing personal and private data of others without their approval as to harm their public image/reputation.
@@ -58,15 +66,6 @@ along with this program; if not, see <http://www.gnu.org/licenses>.
 As you can see, it is easy to map the above set of guidelines to Twitter, TrollDoor, etc.
 While we do not believe TrollDoor is a very good example of fighting online abuse (direct crowdsourcing to users),
 their guidelines seem to resemble those of Twitter.
-
-## Starting Trollslayer
-+ $ python groundtruth_reader.py (It will display a message: "Loading tweets from db... please wait")
-+ Next, you will prompted to enter your reviewer id. If you have one, great; else create it.
-+ Once a tweet is loaded, read the guidelines below before giving ans answer on whether you consider it abusive or not.
-
-## Using Trollslayer
-+ There are four options to mark a tweet, right(good), left(bad), up(undo), down(skip).
-+ Skipping the tweet will flag it as 'unknown', which can be considered as neutral (neither positive nor negative).
 
 #### Centralized OSN-providers guidelines
 ##### [Twitter](https://support.twitter.com/articles/20169997-abusive-behavior-policy):
