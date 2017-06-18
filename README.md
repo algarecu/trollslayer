@@ -1,11 +1,10 @@
 # Trollslayer [![DOI](https://zenodo.org/badge/80379199.svg)](https://zenodo.org/badge/latestdoi/80379199)
 
 ## Citation
-If you use this code and/or dataset (upcoming) please refer to the following,
+If you use this code and/or dataset (upcoming) please refer to the following works,
 
-Alvaro Garcia-Recuero, Jeff Burdges, Christian Grothoff: Privacy-Preserving Abuse Detection in Future Decentralized Online Social Networks. In the 11th ESORICS International Workshop on [Data Privacy Management](http://dpm2016.di.unimi.it/), 2016, Crete, Greece, [source](https://hal.inria.fr/hal-01355951).
-
-The above work uses a dataset containing annotations from a number of crowdworkers in the Trollslayer platform.
+Dataset 1: contains annotations from a number of crowdworkers in the Trollslayer platform.
+* Alvaro Garcia-Recuero, Jeff Burdges, Christian Grothoff: Privacy-Preserving Abuse Detection in Future Decentralized Online Social Networks. In the 11th ESORICS International Workshop on [Data Privacy Management](http://dpm2016.di.unimi.it/), 2016, Crete, Greece, [source](https://hal.inria.fr/hal-01355951).
 
 ## License
 Copyright (C) 2015-2017
