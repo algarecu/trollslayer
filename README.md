@@ -67,9 +67,8 @@ As you can see, it is easy to map the above set of guidelines to Twitter, TrollD
 While we do not believe TrollDoor is a very good example of fighting online abuse (direct crowdsourcing to users),
 their guidelines seem to resemble those of Twitter.
 
-#### Centralized OSN-providers guidelines
-##### [Twitter](https://support.twitter.com/articles/20169997-abusive-behavior-policy):
-
+## Other definitions of abuse
+#### [Twitter](https://support.twitter.com/articles/20169997-abusive-behavior-policy):
 + Violent threats (direct or indirect): promote violence, terrorism or similar, also to minorities or disable people, etc.
 + Abuse and harassment: sending abuse, threads, harrasing message to other user/s.
 + Self-harm: encouraging other users to commit self-harming acts is considered abuse as well.
@@ -77,8 +76,7 @@ their guidelines seem to resemble those of Twitter.
 + Impersonation: pretending to be someone else by registering fake accounts that expose information or similar
   meta-data from those which are a real.
 
-##### [Trolldor](https://www.trolldor.com/faq)
-
+#### [Trolldor](https://www.trolldor.com/faq)
 + Provocation: constructive debate holds no interest for trolls; their goal is to get attention by way of provocation.
 + Creep: users who fill other users timeline on daily basis with messages worshiping their idols, friends, relatives and
   colleagues.
