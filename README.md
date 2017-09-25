@@ -5,7 +5,7 @@ Dataset 1: contains annotations from a number of crowdworkers in the Trollslayer
 * Alvaro Garcia-Recuero, Jeff Burdges, Christian Grothoff: **Privacy-Preserving Abuse Detection in Future Decentralized Online Social Networks**. In the 11th ESORICS International Workshop on [Data Privacy Management](http://dpm2016.di.unimi.it/), 2016, Crete, Greece, [pdf](https://hal.inria.fr/hal-01355951).
 
 Dataset 2: contains annotations from a number of crowdworkers in the Crowdflower platform.
-* Alvaro Garcia-Recuero: **Efficient Privacy-preserving Adversarial Learning in Decentralized Online Social Networks**. ASONAM International Symposium on Foundations of Open Source Intelligence and Security Informatics [FOSINT-SI 2017](http://fosint-si.cpsc.ucalgary.ca/2017/), 2017, Sydney, Australia, [to appear](https://algarecu.wordpress.com/research-and-papers/).
+* Alvaro Garcia-Recuero: **Efficient Privacy-preserving Adversarial Learning in Decentralized Online Social Networks**. ASONAM International Symposium on Foundations of Open Source Intelligence and Security Informatics [FOSINT-SI 2017](http://fosint-si.cpsc.ucalgary.ca/2017/), Sydney, Australia, [to appear](https://algarecu.wordpress.com/research-and-papers/).
 
 ## License
 Copyright (C) 2015-2017
