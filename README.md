@@ -1,5 +1,8 @@
 # Trollslayer [![DOI](https://zenodo.org/badge/80379199.svg)](https://zenodo.org/badge/latestdoi/80379199)
-If you use this code and/or dataset (upcoming) please refer to the following works:
+If you use this code and/or datasets (upcoming) please refer to the following works:
+
+Dataset 3: annotations from both
+Trollslayer: Crowdsourcing and Characterization of Abusive Birds in Twitter, SNAMS 2018. Valencia, Spain.
 
 Dataset 2: contains annotations from a large number of crowdworkers in the Crowdflower platform.
 * Alvaro Garcia-Recuero: **Efficient Privacy-preserving Adversarial Learning in Decentralized Online Social Networks**. [ASONAM '17](http://asonam.cpsc.ucalgary.ca/2017/ASONAM2017Program.pdf) International Symposium on Foundations of Open Source Intelligence and Security Informatics [FOSINT-SI 2017](http://fosint-si.cpsc.ucalgary.ca/2017/), Sydney, Australia, [pdf](https://hal.inria.fr/hal-01572193).
