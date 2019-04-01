@@ -11,7 +11,7 @@ Dataset 1: contains annotations from crowdworkers in the Trollslayer platform.
 * Alvaro Garcia-Recuero, Jeff Burdges, Christian Grothoff: **Privacy-Preserving Abuse Detection in Future Decentralized Online Social Networks**. In the 11th ESORICS International Workshop on [Data Privacy Management](http://dpm2016.di.unimi.it/), 2016, Crete, Greece, [pdf](https://hal.inria.fr/hal-01355951).
 
 ## License
-Copyright (C) 2015-2017
+Copyright (C) 2015-2019
 Álvaro García Recuero, algarecu@gmail.com
 
 This file is part of the Trollslayer framework
