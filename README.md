@@ -11,8 +11,7 @@ Dataset 1: contains annotations from crowdworkers in the Trollslayer platform.
 * Alvaro Garcia-Recuero, Jeff Burdges, Christian Grothoff: **Privacy-Preserving Abuse Detection in Future Decentralized Online Social Networks**. In the 11th ESORICS International Workshop on [Data Privacy Management](http://dpm2016.di.unimi.it/), 2016, Crete, Greece, [pdf](https://hal.inria.fr/hal-01355951).
 
 ## License
-Copyright (C) 2015-present
-Álvaro García Recuero, algarecu@gmail.com
+Copyright (C) 2015-present - Álvaro García Recuero
 
 This file is part of the Trollslayer framework
 
@@ -40,8 +39,7 @@ along with this program; if not, see <http://www.gnu.org/licenses>.
 * termcolor
 * colorama
 
-### Alternatively to py-getch, can install getch() for Python 2.*
-
+### Alternatively to py-getch, can install getch() for Python 2.
 * wget https://pypi.python.org/packages/source/g/getch/getch-1.0-python2.tar.gz#md5=586ea0f1f16aa094ff6a30736ba03c50
 * tar xvf getch-1.0-python2.tar.gz
 * cd getch-1.0
