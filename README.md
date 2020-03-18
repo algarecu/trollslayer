@@ -80,7 +80,7 @@ their guidelines seem to resemble those of Twitter.
 + Impersonation: pretending to be someone else by registering fake accounts that expose information or similar
   meta-data from those which are a real.
 
-#### [Trolldor](https://www.trolldor.com/faq)
+#### [Trolldor](https://www.trolldor.com/faq is not available anymore, presumably shutdown by Twitter after acquisition)
 + Provocation: constructive debate holds no interest for trolls; their goal is to get attention by way of provocation.
 + Creep: users who fill other users timeline on daily basis with messages worshiping their idols, friends, relatives and
   colleagues.
