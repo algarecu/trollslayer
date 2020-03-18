@@ -80,7 +80,7 @@ their guidelines seem to resemble those of Twitter.
 + Impersonation: pretending to be someone else by registering fake accounts that expose information or similar
   meta-data from those which are a real.
 
-#### [Trolldor](https://www.trolldor.com/faq) (which is not available anymore, presumably shutdown by Twitter after acquisition but we had access at the time of writing this)
+#### [Trolldor](https://www.trolldor.com/faq) (which is not available anymore, presumably shutdown by Twitter after acquisition but we had access at the time of writing this. Unlike Trolldor, in Trollslayer we do not annotate users but tweets in order to prevent abuse from the actual reporters themselves as in Name Squatting or other related practices)
 + Provocation: constructive debate holds no interest for trolls; their goal is to get attention by way of provocation.
 + Creep: users who fill other users timeline on daily basis with messages worshiping their idols, friends, relatives and
   colleagues.
