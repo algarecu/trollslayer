@@ -2,7 +2,8 @@
 # example Dockerfile for https://docs.docker.com/examples/postgresql_service/
 #
 
-FROM ubuntu
+FROM ubuntu:16.04
+RUN apt-get update && apt-get install -y gnupg
 
 # Add the PostgreSQL PGP key to verify their Debian packages.
 # It should be the same key as https://www.postgresql.org/media/keys/ACCC4CF8.asc
@@ -15,7 +16,7 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main" > /etc
 # Install ``python-software-properties``, ``software-properties-common`` and PostgreSQL 9.4
 #  There are some warnings (in red) that show up during the build. You can hide
 #  them by prefixing each apt-get statement with DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install -y python-software-properties software-properties-common cmake postgresql-9.4 postgresql-server-dev-9.4 postgresql-plpython-9.4 postgresql-9.4-plr postgresql-client postgresql-contrib
+RUN apt-get update && apt-get install -y python-software-properties software-properties-common postgresql-9.4 postgresql-client-9.4 postgresql-contrib-9.4
 
 # Note: The official Debian and Ubuntu images automatically ``apt-get clean``
 # after each ``apt-get``
