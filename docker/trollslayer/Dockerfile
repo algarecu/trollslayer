@@ -49,7 +49,7 @@ WORKDIR /code
 VOLUME  ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql", "/code"]
 
 # Set the default command to run when starting the container
-CMD ["/usr/lib/postgresql/9.4/bin/postgres", "-D", "/usr/local/var/postgresql@9.4", "-c", "/usr/local/var/postgresql@9.4/postgresql.conf"]
+CMD ["/usr/lib/postgresql/9.4/bin/postgres", "-D", "/var/lib/postgresql/9.4/main", "-c", "config_file=/etc/postgresql/9.4/main/postgresql.conf"]
 
 # Take a snapshot
 # CMD ["docker", "build", "-t", "trollslayer_postgresql", "."]
