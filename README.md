@@ -1,4 +1,6 @@
-# Trollslayer [![DOI](https://zenodo.org/badge/80379199.svg)](https://zenodo.org/badge/latestdoi/80379199) [https://img.shields.io/docker/cloud/build/algarecu/trollslayer] [https://img.shields.io/docker/cloud/automated/algarecu/trollslayer?style=plastic]
+# Trollslayer [![DOI](https://zenodo.org/badge/80379199.svg)](https://zenodo.org/badge/latestdoi/80379199) 
+[![Build](https://dockerbuildbadges.quelltext.eu/status.svg?organization=algarecu&repository=trollslayer)]
+[![Build](https://img.shields.io/docker/cloud/build/algarecu/trollslayer)]
 
 If you use this code and/or datasets (upcoming) please refer to the following works:
 
