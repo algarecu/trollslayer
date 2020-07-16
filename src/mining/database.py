@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2015-2017
+# Copyright (C) 2015-2020
 # Álvaro García-Recuero, algarecu@gmail.com
 #
 # This file is part of the Trollslayer framework
