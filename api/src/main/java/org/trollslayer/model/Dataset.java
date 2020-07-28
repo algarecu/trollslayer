@@ -14,7 +14,7 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 public class Dataset implements Serializable {
 	/**
-	 * * Class for Dataset data model
+	 * * Dataset class for extracting datasets from Postgres and putting them into a {@link Channel} @TODO
 	 */
 	private static final long serialVersionUID = 1L;
 
