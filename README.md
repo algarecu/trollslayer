@@ -2,7 +2,7 @@
 [![Build Auto](https://img.shields.io/docker/cloud/automated/algarecu/trollslayer)]
 [![Build Status](https://img.shields.io/docker/cloud/build/algarecu/trollslayer)]
 
-If you use this code and/or datasets (upcoming) please refer to the following works:
+If you use this code and/or datasets (upcoming) please refer to the following works or email the corresponding author (Alvaro) to get access to the Tweet database in a per request basis:
 
 Dataset 3: annotations from both.
 * Alvaro Garcia-Recuero, et al., **Trollslayer: Crowdsourcing and Characterization of Abusive Birds in Twitter**, The Fifth International Conference on Social Networks Analysis, Management and Security (SNAMS 2018), Valencia, Spain [pdf](https://arxiv.org/pdf/1812.06156)
